@@ -18,5 +18,5 @@ document.querySelectorAll('.nav-links a').forEach(link => {
 const footer = document.querySelector('footer p');
 
 if (footer) {
-    footer.textContent = `© ${new Date().getFullYear()} Your Name. All Rights Reserved.`;
+    footer.textContent = `© ${new Date().getFullYear()} Client Name. All Rights Reserved.`;
 }
